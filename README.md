@@ -69,7 +69,7 @@ Here is a reference screenshot of the Response control...<br>
 
   <li>Next name your PowerApp and Save it</li>
   <li>We can now test it using the json from one of our json documents in our Cosmos DB collection.  To do so, click the <b>Test</b> button and select <b>I'll perform the trigger action</b> and click <b>Test</b>.</li>
-  <li>Paste the json from one of our json documents in our Cosmos DB collection in to the Initializevariable_Value field and click Run flow.  You can then view the <b>run activity</b> to see if your test was successful.</li>
+  <li>Paste the json from one of the json documents in your Cosmos DB collection into the <b>Initializevariable_Value field</b> and click <b>Run flow</b>.  You can then view the <b>run activity</b> to see if your test was successful.</li>
 </ol>
 
 
