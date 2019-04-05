@@ -16,6 +16,6 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
 <ol>
   <li>Go to https://flow.microsoft.com/ and log in.</li>
   <li>Click on <b>My Flows</b> on the left navigation bar and select <b>New</b> along the top and select <b>Create from blank</b>.</li>
-  <li>You will then be presented with the screen below.  Click Create from blank one more time.
-  ![Alt text](/imgs/createfromblank.gif?raw=true "Cosmos DB")  </li>
+  <li>You will then be presented with the screen below.  Click Create from blank one more time.</li>
+  ![Alt text](/imgs/createfromblank.gif?raw=true "Cosmos DB") 
 </ol>
