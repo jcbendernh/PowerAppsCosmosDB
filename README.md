@@ -20,13 +20,13 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
 
 ![Alt text](/imgs/createfromblank.gif?raw=true "Cosmos DB") 
   </li>
-  <li>Under <b>Search connector and triggers</b>, search for PowerApps</li>
-  <li>Under <b>Triggers</b> select PowerApps<br>
+  <li>Under <b>Search connector and triggers</b>, search for <b>PowerApps</b></li>
+  <li>Under <b>Triggers</b> select <b>PowerApps</b><br>
 
 ![Alt text](/imgs/SearchPowerApps.gif?raw=true) 
   </li>
-  <li> Click <b>+ New step</b> and search for initial</li>
-  <li>Under <b>Actions</b> select Initialize variable<br>
+  <li> Click <b>+ New step</b> and search for <b>initial</b></li>
+  <li>Under <b>Actions</b> select <b>Initialize variable</b><br>
 
 ![Alt text](/imgs/Initializevariable.gif?raw=true) 
   </li>
