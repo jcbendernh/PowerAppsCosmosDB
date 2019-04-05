@@ -1,0 +1,23 @@
+{
+    "deviceid": "Northwind-AZ3166",
+    "devicename": "Northwind-AZ3166",
+    "eventtime": "2018-09-21T21:54:00Z",
+    "iotdeviceid": "b0c8907d-04be-e811-a966-000d3a1441c7",
+    "accountid": "2f45cc0a-02be-e811-a96a-000d3a144fee",
+    "latitude": 42.4836,
+    "longitude": -71.19147,
+    "fahreheit": 65,
+    "humidity": null,
+    "pressure": null,
+    "accelerometerx": null,
+    "accelerometery": null,
+    "accelerometerz": null,
+    "zscore": null,
+    "zscoreanomaly": 0,
+    "id": "997a9f11-67cf-19da-0516-d98faa9e08a0",
+    "_rid": "HwBkAKnBTKQBAAAAAAAAAA==",
+    "_self": "dbs/HwBkAA==/colls/HwBkAKnBTKQ=/docs/HwBkAKnBTKQBAAAAAAAAAA==/",
+    "_etag": "\"00008308-0000-0000-0000-5ba5a0c70000\"",
+    "_attachments": "attachments/",
+    "_ts": 1537581255
+}
