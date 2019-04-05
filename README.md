@@ -10,3 +10,9 @@ Below is a representation of the overall architecture of this solution.  For thi
 For this walkthrough, as a reference I have an Azure Cosmos Database using the SQL API that is housing json documents in a collection called <b> Telemetry</b> in a database called <b>IoT</b>...
 
 ![Alt text](/imgs/cosmos.gif?raw=true "Cosmos DB")
+
+Our first step is to go into Flow and create a flow to read from Cosmos DB supply a structured data set to PowerApps.
+
+<ol>
+  <li>Go to https://flow.microsoft.com/ and log in.</li>
+</ol>
