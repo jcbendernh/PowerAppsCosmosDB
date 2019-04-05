@@ -59,7 +59,7 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
 ![Alt text](/imgs/response.gif?raw=true) 
 
 <li>Body = Documents<br>NOTE: This is selected by clicking on the Body field box and under Dynamic content double click the <b>Documents</b> control under the Query Documents heading and it should populate the Body field. When finished it should look like below</li>
-<li>Expand <b>Show advanced options</b> to expose the <b>Response Body JSON Schema</b> field.  You will use this field to define your JSON schema.  The best way to do so is to copy the json from one of your json documents in your Cosmos DB collection and then using the use sample payload to generate schema selection, paste your selection into the new window and click Done.  There is also a sample of this JSON format in the JSONpayload.json file in the files directory.</li>
+<li>Expand <b>Show advanced options</b> to expose the <b>Response Body JSON Schema</b> field.  You will use this field to define your JSON schema.  The best way to do so is to copy the json from one of your json documents in your Cosmos DB collection and then using the use sample payload to generate schema selection, paste your selection into the new window and click Done.  For reference, there is also a sample of this JSON format in the JSONpayload.json file in the files directory.</li>
 
 ![Alt text](/imgs/JSONpayload.gif?raw=true)
 
@@ -69,7 +69,7 @@ Here is a reference screenshot of the Response control...<br>
 
   <li>Next name your PowerApp and Save it</li>
   <li>We can now test it using the json from one of our json documents in our Cosmos DB collection.  To do so, click the <b>Test</b> button and select <b>I'll perform the trigger action</b> and click <b>Test</b>.</li>
-  <li>Paste the json from one of the json documents in your Cosmos DB collection into the <b>Initializevariable_Value field</b> and click <b>Run flow</b>.  You can then view the <b>run activity</b> to see if your test was successful.</li>
+  <li>Paste the json from one of the json documents in your Cosmos DB collection into the <b>Initializevariable_Value field</b> and click <b>Run flow</b>.  For reference, there is also a sample of this JSON format in the JSONpayload.json file in the files directory.  You can then view the <b>run activity</b> to see if your test was successful.</li>
 </ol>
 
 
