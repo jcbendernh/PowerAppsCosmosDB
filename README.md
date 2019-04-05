@@ -45,7 +45,8 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
     <ol>
         <li>Database ID = [select your database name here]</li>
         <li>Collection ID = [select your collection name here]</li>
-        <li>query = [add your relavent SQL statement here]  You can use the CosmosQueryDB.sql file in the files directory of this repository for reference.  You will need to add the <b>CosmosQuery variable</b>.  See the screenshot below for reference.<br> NOTE:  Do not use <b>select *</b> as the intent of this is to provide a structured set of data to PowerApp and <b>select *</b> is not structured.</li>
+        <li>query = [add your relavent SQL statement here]<br>
+        You can use the CosmosQueryDB.sql file in the files directory of this repository for reference.  You will need to add the <b>CosmosQuery variable</b>.  See the screenshot below for reference.<br> NOTE:  Do not use <b>select *</b> as the intent of this exercise is to provide a structured set of data to the PowerApp and <b>select *</b> is not structured when querying no-SQL data stores.</li>
         <li>Leave partition key value blank</li>
     </ol>
 
