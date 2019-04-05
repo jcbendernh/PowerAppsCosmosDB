@@ -31,4 +31,14 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
 
 ![Alt text](/imgs/Initializevariable.gif?raw=true) 
   </li>
+  <li>Under the Initialize variable control, fill in the following</li>
+    <ol>
+        <li>Name = CosmosQuery</li>
+        <li>TYpe = string</li>
+        <li>Value = Initializevariable_Value.<br>NOTE: This is selected by clicking on the Value field box and under Dynamic content select See more next to the Power Apps heading.  Double click Ask in PowerApps control and it should populate the Value field. When finished it should look like below</li>
+    </ol>
+        
+![Alt text](/imgs/Initializevariable_Value.gif?raw=true) 
+
+
 </ol>
