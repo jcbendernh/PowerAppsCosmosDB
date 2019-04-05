@@ -41,11 +41,11 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
 ![Alt text](/imgs/Initializevariable_Value.gif?raw=true) 
   <li> Click <b>+ New step</b> and search for <b>Cosmos</b></li>
   <li>Under <b>Actions</b> select <b>Query documents</b></li>
-  <li>Under the Initialize variable control, fill in the following</li>
+  <li>Under the Initialize variable control, fill in the following...</li>
     <ol>
-        <li>Database ID = <select your database name here></li>/
-        <li>Collection ID = <select your collection name here></li>
-        <li>query = <add your relavent SQL statement here>  You can use the CosmosQueryDB.sql file in the files directory of this repository for reference.  You will need to add the <b>CosmosQuery variable</b>.  See the screenshot below for reference.<br> NOTE:  Do not use <b>select *</b> as the intent of this is to provide a structured set of data to PowerApp and <b>select *</b> is not structured.</li>
+        <li>Database ID = [select your database name here]</li>
+        <li>Collection ID = [select your collection name here]</li>
+        <li>query = [add your relavent SQL statement here]  You can use the CosmosQueryDB.sql file in the files directory of this repository for reference.  You will need to add the <b>CosmosQuery variable</b>.  See the screenshot below for reference.<br> NOTE:  Do not use <b>select *</b> as the intent of this is to provide a structured set of data to PowerApp and <b>select *</b> is not structured.</li>
         <li>Leave partition key value blank</li>
     </ol>
 
