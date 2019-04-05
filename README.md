@@ -62,4 +62,9 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
 <li>Expand <b>Show advanced options</b> to expose the <b>Response Body JSON Schema</b> field.  You will use this field to define your JSON schema.  The best way to do so is to copy the json from one of your json documents in your Cosmos DB collection and then using the use sample payload to generate schema selection, paste your selection into the new window and click Done.  There is also a sample of this JSON format in the JSONpayload.json file in the files directory.<br>
 
 ![Alt text](/imgs/JSONpayload.gif?raw=true)
+
+Here is a reference screenshot of the Response control...<br>
+
+![Alt text](/imgs/responsescreenshot.gif?raw=true)
+
 </ol>
