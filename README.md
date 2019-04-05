@@ -36,6 +36,7 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
         <li>Name = CosmosQuery</li>/
         <li>Type = String</li>
         <li>Value = Initializevariable_Value.<br>NOTE: This is selected by clicking on the Value field box and under Dynamic content select <b>See more</b> next to the Power Apps heading.  Double click <b>Ask in PowerApps</b> control and it should populate the Value field. When finished it should look like below</li>
+        <br>
     </ol>
         
 ![Alt text](/imgs/Initializevariable_Value.gif?raw=true) 
@@ -48,6 +49,7 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
         <li>query = [add your relavent SQL statement here]<br>
         You can use the CosmosQueryDB.sql file in the files directory of this repository for reference.  You will need to add the <b>CosmosQuery variable</b>.  See the screenshot below for reference.<br> NOTE:  Do not use <b>select *</b> as the intent of this exercise is to provide a structured set of data to the PowerApp and <b>select *</b> is not structured when querying no-SQL data stores.</li>
         <li>Leave partition key value blank</li>
+        <br>
     </ol>
 
 ![Alt text](/imgs/Querydocuments.gif?raw=true) 
