@@ -69,7 +69,7 @@ Here is a reference screenshot of the Response control...<br>
 
   <li>Next name your PowerApp and Save it</li>
   <li>We can now test it using a deviceid value from one of our json documents in our Cosmos DB collection.  To do so, click the <b>Test</b> button and select <b>I'll perform the trigger action</b> and click <b>Test</b>.</li>
-  <li>Paste the deviceid value from one of the json documents in your Cosmos DB collection into the <b>Initializevariable_Value field</b> and click <b>Run flow</b>.  For reference, I am using the deviceid from the <a href="https://github.com/jcbendernh/PowerAppsCosmosDB/blob/master/files/JSONpayload.json" target="_blank">JSONpayload.json</a> file in the files directory.  You can then view the <b>run activity</b> to see if your test was successful.</li>
+  <li>Paste the deviceid value from one of the json documents in your Cosmos DB collection into the <b>Initializevariable_Value field</b> and click <b>Run flow</b>.  For reference, I am using the deviceid from the <a href="https://github.com/jcbendernh/PowerAppsCosmosDB/blob/master/files/JSONpayload.json" target="_blank">JSONpayload.json</a> file in the files directory.  You can then view the <b>run activity</b> to see if your test was successful.  Within the run activity, if all components have passed, you can see your results of the Cosmos query by expanding the <b>Response</b> component and view the <b>body</b> of the <b>output</b> section.</li>
 </ol>
 
 
