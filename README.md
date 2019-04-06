@@ -33,7 +33,7 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
   </li>
   <li>Under the Initialize variable control, fill in the following</li>
     <ol>
-        <li>Name = CosmosQuery</li>/
+        <li>Name = CosmosQuery</li>
         <li>Type = String</li>
         <li>Value = Initializevariable_Value.<br>NOTE: This is selected by clicking on the Value field box and under Dynamic content select <b>See more</b> next to the Power Apps heading.  Double click <b>Ask in PowerApps</b> control and it should populate the Value field. When finished it should look like below</li>
         <br>
@@ -47,7 +47,7 @@ Our first step is to go into Flow and create a flow to read from Cosmos DB suppl
         <li>Database ID = [select your database name here]</li>
         <li>Collection ID = [select your collection name here]</li>
         <li>query = [add your relavent SQL statement here]<br>
-        You can use the CosmosQueryDB.sql file in the files directory of this repository for reference.  You will need to add the <b>CosmosQuery variable</b>.  See the screenshot below for reference.<br> NOTE:  Do not use <b>select *</b> as the intent of this exercise is to provide a structured set of data to the PowerApp and <b>select *</b> is not structured when querying no-SQL data stores.</li>
+        You can use the <a href= "https://github.com/jcbendernh/PowerAppsCosmosDB/blob/master/files/CosmosDBQuery.sql" target="_blank">CosmosQueryDB.sql</a> file in the files directory of this repository for reference.  You will need to add the <b>CosmosQuery variable</b>.  See the screenshot below for reference.<br> NOTE:  Do not use <b>select *</b> as the intent of this exercise is to provide a structured set of data to the PowerApp and <b>select *</b> is not structured when querying no-SQL data stores.</li>
         <li>Leave the partition key value blank</li>
         <br>
     </ol>
