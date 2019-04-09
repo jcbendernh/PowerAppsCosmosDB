@@ -79,7 +79,7 @@ Now that we have completed building out the Flow, let's use it to display the da
   <li>Go to https://web.powerapps.com and log in.</li>
   <li>We are going to create a blank canvas app from scratch.  To do so, select <b>Canvas app from blank</b>.  For this example</b>...
   
-  ![Alt text](/imgs/textinput.gif?raw=true)
+  ![Alt text](/imgs/textinput1.gif?raw=true)
   </li>
   <li>Next click the <b>Button</b> button from the toolbar to insert the button control onto the canvas.  Move it below the text input field like so...
 
