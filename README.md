@@ -92,8 +92,15 @@ Now that we have completed building out the Flow, let's use it to display the da
   <li>Now we need to modify the formula from <b>[Your flow].Run(</b> to <b>ClearCollect(queryResults,[Your flow].Run(TextInput1.Text))</b> like the example below...
   
   ![Alt text](/imgs/buttonformula.gif?raw=true)
+  <br>
+  This will trigger the search based on the value in the text box.
   </li>
-  <li></li>
+  <li>Now we will insert a Gallery to return the results.  On the Menu bar, select <b>Insert | Gallery drop down | Vertical</b>...
+  
+  ![Alt text](/imgs/insertgallery.gif?raw=true)
+  <br>
+  NOTE:  We will not use the image, only the 2 text fields to return results. 
+   </li>
   <li></li>
 
 </ol>
