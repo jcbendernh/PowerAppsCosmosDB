@@ -116,5 +116,5 @@ Now that we have completed building out the Flow, let's use it to display the da
   ![Alt text](/imgs/preview.gif?raw=true)
   
   </li>
-  <li><B>Congratulations</b>.  You surretrieved Cosmos DB data within a Power App.  Next let's exit out of the preview and save our Power App under <b>File | Save</b>.  You can now clean up your screen in the Power App as you see fit.  If you would like to try some of the extra credit sections below, have at it.</li>  
+  <li><B>Congratulations</b>.  You retrieved Cosmos DB data within a Power App using Flow.  Next let's exit out of the preview and save our Power App under <b>File | Save</b>.  You can now clean up your screen in the Power App as you see fit.  If you would like to try some of the extra credit sections below, be my guest.</li>  
 </ol>
