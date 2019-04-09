@@ -107,7 +107,14 @@ Now that we have completed building out the Flow, let's use it to display the da
 
   ![Alt text](/imgs/galleryproperties.gif?raw=true)
   </li>
-  <li></li>
-  <li></li>
+  <li>Next, let's Preview the app, click on the Preview button in the upper right...
+  
+  ![Alt text](/imgs/previewapp.gif?raw=true)
+  </li>
+  <li>Next type a valid device in the field and click the Button.  You should get a result set in your gallery...
+  
+  ![Alt text](/imgs/preview.gif?raw=true)
+  
+  </li>
   <li></li>  
 </ol>
