@@ -95,11 +95,11 @@ Now that we have completed building out the Flow, let's use it to display the da
   <br>
   This will trigger the search based on the value in the text box.
   </li>
-  <li>Now we will insert a Gallery to return the results.  On the Menu bar, select <b>Insert | Gallery drop down | Vertical</b>...
+  <li>Next we will insert a Gallery to return the result set.  On the Menu bar, select <b>Insert | Gallery drop down | Vertical</b>...
   
   ![Alt text](/imgs/insertgallery.gif?raw=true)
   <br>
-  Note:  We will not use the image, only the 2 text fields to return results 
+  Note:  We will not use the image control in the gallery, only the 2 text fields to return results 
    </li>
   <li>Move the gallery so it is below the button.</li>
   <li>In the Gallery properties window, click the <b>Advanced</b> tab and set Items = <b>queryResults</b></li>
@@ -111,10 +111,10 @@ Now that we have completed building out the Flow, let's use it to display the da
   
   ![Alt text](/imgs/previewapp.gif?raw=true)
   </li>
-  <li>Next type a valid device in the field and click the Button.  You should get a result set in your gallery...
+  <li>Next type a valid device in the field and click the Button.  You should get a valid result set in your gallery...
   
   ![Alt text](/imgs/preview.gif?raw=true)
   
   </li>
-  <li>Congratulations.  You now surface Cosmos DB data within a Power App.  Next let's exit out of the preview and save our Power App under File | Save.  You can now clean up your screen in the Power App as you see fit.  If you would like to try some of the extra credit sections below, have at it.</li>  
+  <li><B>Congratulations</b>.  You surretrieved Cosmos DB data within a Power App.  Next let's exit out of the preview and save our Power App under <b>File | Save</b>.  You can now clean up your screen in the Power App as you see fit.  If you would like to try some of the extra credit sections below, have at it.</li>  
 </ol>
