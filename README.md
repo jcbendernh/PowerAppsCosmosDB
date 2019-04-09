@@ -84,11 +84,15 @@ Now that we have completed building out the Flow, let's use it to display the da
   <li>Next click the <b>Button</b> button from the toolbar to insert the button control onto the canvas.  Move it below the text input field like so...
 
   ![Alt text](/imgs/buttoncontrol.gif?raw=true)
-  
-  
   </li>
-  <li></li>
-  <li></li>
+  <li>Next click on the button control to highlight it.  You should now see it's properties to the right.  In the menu bar, click Action and select Flows.  We need to associate the flow that we just created with the button.  To do so select the Flow from the list and when complted it should be under the Flows accoiated with 'Button1' section. We can also see it is in the formula bar above...
+  
+  ![Alt text](/imgs/buttonactionflow.gif?raw=true)
+  </li>
+  <li>Now we need to modify the formula from <b>[Your flow].Run(</b> to <b>ClearCollect(queryResults,[Your flow].Run(TextInput1.Text))</b> like the example below...
+  
+  ![Alt text](/imgs/buttonformula.gif?raw=true)
+  </li>
   <li></li>
   <li></li>
 
