@@ -77,7 +77,7 @@ Now that we have completed building out the Flow, let's use it to display the da
 
 <ol start="19">
   <li>Go to https://web.powerapps.com and log in.</li>
-  <li>We are going to create a blank canvas app from scratch.  To do so, select <b>Canvas app from blank</b>.  You should now have the PowerApp designer with a blank canvas app displayed.  First, we will add a text input box to search on, in the menu bar, go to <b>Insert | Text drop down | Text input</b>...
+  <li>We are going to create a blank canvas app from scratch.  To do so, select <b>Canvas app from blank</b>.  You are now in the PowerApp designer with a blank canvas app displayed.  First, we will add a text input box to search on, in the menu bar, go to <b>Insert | Text drop down | Text input</b>...
 
   ![Alt text](/imgs/textinput.gif?raw=true)
   </li>
@@ -85,7 +85,7 @@ Now that we have completed building out the Flow, let's use it to display the da
 
   ![Alt text](/imgs/buttoncontrol.gif?raw=true)
   </li>
-  <li>Next click on the button control to highlight it.  You should now see it's properties to the right.  In the menu bar, click Action and select Flows.  We need to associate the flow that we just created with the button.  To do so select the Flow from the list and when complted it should be under the Flows accoiated with 'Button1' section. We can also see it is in the formula bar above...
+  <li>Next click on the button control to highlight it.  You should now see it's properties to the right.  In the menu bar, click <b>Action</b> and select <b>Flows</b>.  We need to associate the flow that we just created with the button.  To do so select the Flow from the list and when completed it should be under the <b>Flows associated with 'Button1'</b> section. We can also see it in the formula bar above...
   
   ![Alt text](/imgs/buttonactionflow.gif?raw=true)
   </li>
