@@ -77,8 +77,8 @@ Now that we have completed building out the Flow, let's use it to display the da
 
 <ol start="19">
   <li>Go to https://web.powerapps.com and log in.</li>
-  <li>We are going to create a blank canvas app from scratch.  To do so, select <b>Canvas app from blank</b>.  For this example</b>...
-  
+  <li>We are going to create a blank canvas app from scratch.  To do so, select <b>Canvas app from blank</b>.  You should now have the PowerApp designer with a blank canvas app displayed.  First, we will add a text input box to search on, in the menu bar, go to <b>Insert | Text drop down | Text input</b>...
+
   ![Alt text](/imgs/textinput.gif?raw=true)
   </li>
   <li>Next click the <b>Button</b> button from the toolbar to insert the button control onto the canvas.  Move it below the text input field like so...
