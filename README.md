@@ -72,4 +72,22 @@ Here is a reference screenshot of the Response control...<br>
   <li>Paste the deviceid value from one of the json documents in your Cosmos DB collection into the <b>Initializevariable_Value field</b> and click <b>Run flow</b>.  For reference, I am using the deviceid from the <a href="https://github.com/jcbendernh/PowerAppsCosmosDB/blob/master/files/JSONpayload.json" target="_blank">JSONpayload.json</a> file in the files directory.  You can then view the <b>run activity</b> to see if your test was successful.  Within the run activity, if all components have passed, you can see the results of the Cosmos DB query by expanding the <b>Response</b> component and viewing the <b>Body</b> of the <b>OUTPUTS</b> section.</li>
 </ol>
 
+# Creating the PowerApp
+Now that we have completed building out the Flow, let's use it to display the data within the PowerApp.  For this example, we will showcase a simple example creating a Canvas app that displays a listing of records based on a text search box.  At the end of this section, I will also provide some guidance on how to create a drill though screen to display detailed information of each reading and also how to create a drop down box to allow the user to display a fixed listing of registered devices.
 
+<ol start="19">
+  <li>Go to https://web.powerapps.com and log in.</li>
+  <li>We are going to create a blank canvas app from scratch.  To do so, select <b>Canvas app from blank</b>.  For this example choose <b>Format = phone</b> and give you PowerApp a name and click <b>Create</b>.</li>
+  <li>If you receieve the <b>Welcome to PowerApps Studio</> screen, click <b>Skip</b>.</li>
+  <li>You should now have a blank canvas app in the designer.  In the menu bar select Insert | Text drop down | Text Input...
+  
+  ![Alt text](/imgs/textinput.gif?raw=true)
+  
+  </li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+
+</ol>
