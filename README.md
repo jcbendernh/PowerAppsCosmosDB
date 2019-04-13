@@ -146,7 +146,11 @@ Now that we have the list view in the PowerApp, we would also like to be able to
   ![Alt text](/imgs/insertblankgallery.gif?raw=true)
   </li>
   
-  <li>Click the <b>Advanced tab</b> on the Gallery and under <b>Items</b>, add <b>queryResultsID</b>.</li>
+  <li>Click the <b>Advanced tab</b> on the Gallery and under <b>Items</b>, add <b>queryResultsID</b>.
+  
+  ![Alt text](/imgs/gallery2items.gif?raw=true)
+  </li>
+  
   <li></li>
   <li></li>
   <li></li>
