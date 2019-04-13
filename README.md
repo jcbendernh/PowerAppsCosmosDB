@@ -165,18 +165,15 @@ Now that we have the list view in the PowerApp, we would also like to be able to
   NOTE:  If you want to combine the field and label together, you can use the concatenate function.  Here is an example...  <b>Concatenate("Humidity:  ",Text(Round(ThisItem.humidity,2)))</b><br>
   For more information on PowerApp formulas, check out <a href="https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference" target="_blank">Formula reference for PowerApps</a>.
   </li>
-  <li>Last of all, we need to add a back button to the top of the DetailScreen.  Click on the DetailScreen outside of the gallery and within the Menu bar select Insert | Icons | Back icon...
+  <li>Last of all, we need to add a back button to the top of the DetailScreen.  Click on the DetailScreen <b>outside of the gallery</b> and within the Menu bar select <b>Insert | Icons | Back icon</b>...
   
   ![Alt text](/imgs/backicon.gif?raw=true)
   </li>
-  <li>Position the back icon to the top left corner of the form.  You may have to reposition your gallery to accomodate the icon</li>
+  <li>Position the back icon to the top left corner of the form.  You may have to reposition your gallery to accomodate the icon.</li>
   <li>Highlight the back icon and under its' advanced properties, change Onselect to <b>Navigate(BrowseScreen, ScreenTransition.UnCover)</b>
   
   ![Alt text](/imgs/backicononselect.gif?raw=true)
   </li>
-  <li>Now we are ready to test.  Click <b>Preview the App icon</b> in the upper right and test your screen.  Within the BrowseScreen, search on a device and drill into it's details.  If everything is successful, congratulations, you have successfully completed this section.</li>
-
-
-
+  <li>Now we are ready to test.  Click <b>Preview the App icon</b> in the upper right and test your screen.  Within the BrowseScreen, search on a device and drill into it's details.  If everything works as expected, you have successfully completed this section.</li>
 </ol>
 
