@@ -140,6 +140,11 @@ Now that we have the list view in the PowerApp, we would also like to be able to
 
   ![Alt text](/imgs/arrowonselect.gif?raw=true)
   </li>  
+  <li>Make sure you are on the <b>DetailScreen</b>.  In the menu bar, go to <b>Action | Flows and associate the flow you just created to the DetailScreen.  In the formula bar above change your formula to <b>ClearCollect(queryResultsID,'[Your Flow name here]'.Run(id))</b>...
+
+    ![Alt text](/imgs/detailscreenonvisible.gif?raw=true)
+
+  </li>
   <li>Make sure you are on the <b>DetailScreen</b>.  In the menu bar, go to <b>Insert | Gallery | Blank flexible height</b>...
   
   ![Alt text](/imgs/insertblankgallery.gif?raw=true)
