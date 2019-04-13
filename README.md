@@ -146,13 +146,25 @@ Now that we have the list view in the PowerApp, we would also like to be able to
   ![Alt text](/imgs/insertblankgallery.gif?raw=true)
   </li>
   
-  <li>Click the <b>Advanced tab</b> on the Gallery and under <b>Items</b>, add <b>queryResultsID</b>.
+  <li>Click the <b>Advanced tab</b> on the Gallery and under <b>Items</b>, add <b>queryResultsID</b>...
   
   ![Alt text](/imgs/gallery2items.gif?raw=true)
   </li>
-  
-  <li></li>
-  <li></li>
+
+  <li>With the Gallery highlighed, first click <b>Add an item from the Insert Tab</b> within the gallery control on the form and on the menu bar select <b>Insert | Text | Label</b>.  It should add the text control to the Gallery.  You can repeat this step as many times as needed to add the proper fields to your DetailScreen Gallery.</li>
+
+  <li>Higlight your text field and under the <b>Advanced</b> tab, make sure that <b>OnSelect = Select(Parent)</b>.  If not, you did not add the label within the Gallery and it is floating independently on the form.  Delete the field and repeat the step above again.</li>
+
+  <li>Change the <b>text</b> control on your label to ThisItem.[Your desired field]...
+
+  ![Alt text](/imgs/galleryitemtext.gif?raw=true)
+  </li>
+
+  <li>Repeat the step above for each field you have in the gallery
+  <br>
+  NOTE:  If you want to combine the field and label together, you can use the concatenate function.  Here is an example...  Concatenate("Humidity:  ",Text(Round(ThisItem.humidity,2)))<br>
+  For more information on PowerApp formulas, check out <a href="https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference" target="_blank">Formula reference for PowerApps</a>
+  </li>
   <li></li>
   <li></li>
   <li></li>
