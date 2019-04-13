@@ -118,3 +118,15 @@ Now that we have completed building out the Flow, let's use it to display the da
   </li>
   <li><B>Congratulations</b>.  You retrieved Cosmos DB data within a Power App using Flow.  Next let's exit out of the preview and save our Power App under <b>File | Save</b>.  You can now clean up your screen in the Power App as you see fit.  If you would like to try some of the extra credit sections below, be my guest.</li>  
 </ol>
+
+# Creating the Detail View within the Power App
+Now that we have the list view in the PowerApp, we would also like to be able to click on a record and have it drill into a more detailed view.  To do so, we will first need to create another Flow to give us just a specific record as opposed to a listing of records.  After that is created, we can add a Detail Screen to our PowerApp and add the proper controls to populate that screen and enable naviagtion between the two.  
+
+<ol start="31">
+  <li>Log into https://flow.microsoft.com/ and click on <b>My flows</b> in the left navigation bar and hover over your flow in the listing and click the <b>elipsis button</b> and select <b>Save As</b> and save it with the same name appended with "-ID"...
+
+  ![Alt text](/imgs/flowsaveas.gif?raw=true)
+  </li>
+  <li>Next we will edit our flow.  Only one modification is needed, we are going to change the query in the Query documents step to pull only one record.  You can use the CosmosDBQuery-ID.sql file in the files directory for a template.  Once completed click <b>Save</b> to save your Flow. Make sure to <b>turn on your Flow</b> as well</li>
+</ol>
+
