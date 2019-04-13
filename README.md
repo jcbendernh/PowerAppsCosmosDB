@@ -136,11 +136,7 @@ Now that we have the list view in the PowerApp, we would also like to be able to
 
   ![Alt text](/imgs/renamescreens.gif?raw=true)
   </li>
-  <li>On the BrowseScreen, highlight the arrow control on the form and click on the Advanced Tab.  Add the following to OnSelect...  <b>Navigate(DetailScreen, ScreenTransition.Cover,{id:ThisItem.id} )</b>...
-
-  ![Alt text](/imgs/arrowonselect.gif?raw=true)
-  </li>  
-  <li>Make sure you are on the <b>DetailScreen</b>.  In the menu bar, go to <b>Action | Flows and associate the flow you just created to the DetailScreen.  In the formula bar above change your formula to <b>ClearCollect(queryResultsID,'[Your Flow name here]'.Run(id))</b>...
+  <li>On the BrowseScreen, highlight the arrow control on the form and click on the Advanced Tab.  Add the following to OnSelect...  <b>Navigate(DetailScreen, ScreenTransition.Cover,{id:ThisItem.id} )</b>...</b> and associate the flow you just created to the DetailScreen.  In the formula bar above change your formula to <b>ClearCollect(queryResultsID,'[Your Flow name here]'.Run(id))</b>...
 
   ![Alt text](/imgs/detailscreenonvisible.gif?raw=true)
 
