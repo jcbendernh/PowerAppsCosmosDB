@@ -127,6 +127,29 @@ Now that we have the list view in the PowerApp, we would also like to be able to
 
   ![Alt text](/imgs/flowsaveas.gif?raw=true)
   </li>
-  <li>Next we will edit our flow.  Only one modification is needed, we are going to change the </b>query<b> in the <b>Query documents</b> step to pull only one record.  You can use the <a href ="https://github.com/jcbendernh/PowerAppsCosmosDB/blob/master/files/CosmosDBQuery-ID.sql" parent="_blank">CosmosDBQuery-ID.sql</a> file in the files directory for a template.  Once completed click <b>Save</b> to save your Flow. Make sure to <b>turn on your Flow</b> as well</li>
+  <li>Next we will edit our flow.  Only one modification is needed, we are going to change the </b>query</b> in the <b>Query documents</b> step to pull only one record.  You can use the <a href ="https://github.com/jcbendernh/PowerAppsCosmosDB/blob/master/files/CosmosDBQuery-ID.sql" parent="_blank">CosmosDBQuery-ID.sql</a> file in the files directory for a template.  Once completed click <b>Save</b> to save your Flow. Make sure to <b>turn on your Flow</b> as well</li>
+  <li>Now we can go into our PowerApp we just created and in the menu bar, go to <b>Insert | New Screen | Blank</b>...
+
+  ![Alt text](/imgs/insertblankscreen.gif?raw=true)
+  </li>
+  <li>Lets rename our screens so to <b>BrowseScreen</b> and <b>DetailScreen</b>.  Highlight the screen control and click on the elipsis button to rename.  When finished, it should like...
+
+  ![Alt text](/imgs/renamescreens.gif?raw=true)
+  </li>
+  <li>On the BrowseScreen, highlight the arrow control on the form and click on the Advanced Tab.  Add the following to OnSelect...  <b>Navigate(DetailScreen, ScreenTransition.Cover,{id:ThisItem.id} )</b>...
+
+  ![Alt text](/imgs/arrowonselect.gif?raw=true)
+  </li>  
+  <li>Make sure you are on the <b>DetailScreen</b>.  In the menu bar, go to <b>Insert | Gallery | Blank flexible height</b>...
+  
+  ![Alt text](/imgs/insertblankgallery.gif?raw=true)
+  </li>
+  
+  <li>Click the <b>Advanced tab</b> on the Gallery and under <b>Items</b>, add <b>queryResultsID</b>.</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
 </ol>
 
