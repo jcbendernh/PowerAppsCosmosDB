@@ -120,13 +120,13 @@ Now that we have completed building out the Flow, let's use it to display the da
 </ol>
 
 # Creating the Detail View within the Power App
-Now that we have the list view in the PowerApp, we would also like to be able to click on a record and have it drill into a more detailed view.  To do so, we will first need to create another Flow to give us just a specific record as opposed to a listing of records.  After that is created, we can add a Detail Screen to our PowerApp and add the proper controls to populate that screen and enable naviagtion between the two.  
+Now that we have the list view in the PowerApp, we would also like to be able to click on a record and have it drill into a more detailed view.  To do so, we will first need to create another Flow to give us the specific record information.  After that is created, we can add a Detail Screen to our PowerApp and add the proper controls to populate that screen and enable navigation between the two.  
 
 <ol start="31">
   <li>Log into https://flow.microsoft.com/ and click on <b>My flows</b> in the left navigation bar and hover over your flow in the listing and click the <b>elipsis button</b> and select <b>Save As</b> and save it with the same name appended with "-ID"...
 
   ![Alt text](/imgs/flowsaveas.gif?raw=true)
   </li>
-  <li>Next we will edit our flow.  Only one modification is needed, we are going to change the query in the Query documents step to pull only one record.  You can use the CosmosDBQuery-ID.sql file in the files directory for a template.  Once completed click <b>Save</b> to save your Flow. Make sure to <b>turn on your Flow</b> as well</li>
+  <li>Next we will edit our flow.  Only one modification is needed, we are going to change the </b>query<b> in the <b>Query documents</b> step to pull only one record.  You can use the <a href ="https://github.com/jcbendernh/PowerAppsCosmosDB/blob/master/files/CosmosDBQuery-ID.sql" parent="_blank">CosmosDBQuery-ID.sql</a> file in the files directory for a template.  Once completed click <b>Save</b> to save your Flow. Make sure to <b>turn on your Flow</b> as well</li>
 </ol>
 
