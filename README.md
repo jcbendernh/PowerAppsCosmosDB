@@ -194,8 +194,8 @@ Instead of having to know the device names, we can also pull a listing of Device
   
   ![Alt text](/imgs/insertdropdown.gif?raw=true)
   </li>
-  <li>Move it to just above the <b>Gallery</b> on the <b>BrowseScreen</b> as we will need to leave room at the top for a refresh control in a later step</li>
-  <li>With the DropDown control highligted, modify the following under the <b>Properties</b> tab...
+  <li>Move it to just above the <b>Gallery</b> on the <b>BrowseScreen</b> as we will need to leave room at the top for a refresh control in a later step.</li>
+  <li>With the Dropdown control highligted, modify the following under the <b>Properties</b> tab...
     <ol>
     <li>Items=<b>Iot Devices</b></li>
     <li>Value=<b>Name</b></li>
@@ -208,7 +208,10 @@ Instead of having to know the device names, we can also pull a listing of Device
   ![Alt text](/imgs/dropdownadvanced.gif?raw=true)
     </li>
     </ol>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>If you test this functionality with the Preview the app button, you will notice that the query only returns value from the Cosmos DB when you change the value in the drop down, but it will not execute on the initial value shown.<br>  To fix that we will add a reload control to the BrowseScreen.  From the menu bar select <b>Insert | Icons | Reload</b> and add it to the top right of the BrowseScreen. </li>
+  <li>With the icon selected, modify the following value on the <b>Advanced</b> tab...  OnSelect=<b>ClearCollect(queryResults,[Your First Power App created].Run(Dropdown1.Selected.Value))</b>
+
+  ![Alt text](/imgs/icononselect.gif?raw=true)
+  </li>
+  <li>Now we are ready to test.  Click <b>Preview the App icon</b> in the upper right and test your dropdown and reload controls with the listing.  If everything works as expected, you have successfully completed this section.</li>
 </ol>
