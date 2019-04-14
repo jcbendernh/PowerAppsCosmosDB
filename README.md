@@ -178,7 +178,7 @@ Now that we have the list view in the PowerApp, we would also like to be able to
 </ol>
 
 # Pulling a Device Listing from Dynamics 365
-Instead of having to know the device names, we can also pull a listing of Devices that we already have registered with IoT Hub.  For this example we will pull that listing from the IoT Devices entity within Dynamics 365.  This assumes that you have the <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/connected-field-service#connected-field-service-for-azure-iot-hub" target="_blank">Conneted Field Service for Iot Hub</a> installed and configured within Dynamics 365.
+Instead of having to know the device names, we can also pull a listing of Devices that we already have registered with IoT Hub.  For this example we will pull that listing from the IoT Devices entity within Dynamics 365.  This assumes that you have the <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/connected-field-service#connected-field-service-for-azure-iot-hub" target="_blank">Conneted Field Service for Iot Hub</a> installed and configured within a Dynamics 365 instance.
 <br>&nbsp;<br>
 <i>If you do not have access to a Dynamics 365 Connected Field Service for Iot Hub instance.  Alternatively you could use the <a href="https://docs.microsoft.com/en-us/azure/event-grid/overview" target="_blank">Event Grid</a> functionality in IoT Hub in conjunction with <a href="https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview" target="_blank">Logic Apps</a> to write your devices to an <a href = "https://docs.microsoft.com/en-us/azure/sql-database/sql-database-technical-overview" target="_blank">Azure SQL database</a> when a device is registered with IoT Hub.</i>
 
@@ -186,7 +186,7 @@ Instead of having to know the device names, we can also pull a listing of Device
   <li>Our first step is to delete the <b>Text Input</b> and <b>Button</b> controls from the <b>BrowseScreen</b>.  We will not use them anymore.</li>
   <li>Let's add our data source.  From the menu bar select <b>View | Data sources</b> and click <b>Add data source</b>. </li>
   <li>If you already have used a Dynamics 365 Data Source that points to your specific D365 instance in another power app, it will show in the collection listing.  If not, click <b>New Connection</b> and select <b>Dynamics 365</b></li>
-  <li>Select the appropriate D365 instance and for the <b>table</b> select <b>Iot Devices</b> and click <b>Connect</b>.  Your data source should now show up in the listing...
+  <li>Select the appropriate D365 instance and for the <b>table</b> select <b>Iot Devices</b> and click <b>Connect</b>.  When finished, your data source should now show up in the listing...
   
   ![Alt text](/imgs/d365datasource.gif?raw=true)
   </li>
@@ -194,7 +194,7 @@ Instead of having to know the device names, we can also pull a listing of Device
   
   ![Alt text](/imgs/insertdropdown.gif?raw=true)
   </li>
-  <li>Move it to just above the <b>Gallery</b> on the <b>BrowseScreen</b> as we will need to leave room at the top for a refresh control in a later step.</li>
+  <li>Move it to just above the <b>Gallery</b> on the <b>BrowseScreen</b> as we will need to leave room at the top for a reload control in a later step.</li>
   <li>With the Dropdown control highligted, modify the following under the <b>Properties</b> tab...
     <ol>
     <li>Items=<b>Iot Devices</b></li>
@@ -208,7 +208,7 @@ Instead of having to know the device names, we can also pull a listing of Device
   ![Alt text](/imgs/dropdownadvanced.gif?raw=true)
     </li>
     </ol>
-  <li>If you test this functionality with the Preview the app button, you will notice that the query only returns value from the Cosmos DB when you change the value in the drop down, but it will not execute on the initial value shown.<br>  To fix that we will add a reload control to the BrowseScreen.  From the menu bar select <b>Insert | Icons | Reload</b> and add it to the top right of the BrowseScreen. </li>
+  <li>If you test this functionality with the Preview the app button, you will notice that the query only returns values from the Cosmos DB when you change the value in the drop down, but it will not execute on the initial value shown.<br>  To fix that we will add a reload control to the BrowseScreen.  From the menu bar select <b>Insert | Icons | Reload</b> and add it to the top right of the BrowseScreen. </li>
   <li>With the icon selected, modify the following value on the <b>Advanced</b> tab...  OnSelect=<b>ClearCollect(queryResults,[Your First Power App created].Run(Dropdown1.Selected.Value))</b>
 
   ![Alt text](/imgs/icononselect.gif?raw=true)
