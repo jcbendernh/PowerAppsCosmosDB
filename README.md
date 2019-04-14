@@ -197,10 +197,17 @@ Instead of having to know the device names, we can also pull a listing of Device
   <li>Move it to just above the <b>Gallery</b> on the <b>BrowseScreen</b> as we will need to leave room at the top for a refresh control in a later step</li>
   <li>With the DropDown control highligted, modify the following under the <b>Properties</b> tab...
     <ol>
-    <li><b>Items=Iot Devices</b></li>
-    <li><b>Value = Name</b></li>
+    <li>Items=<b>Iot Devices</b></li>
+    <li>Value=<b>Name</b></li>
     </ol>
-  <li>On the advanced </li>
+  <li>On the <b>Advanced</b> tab, set the following values...</li>
+    <ol>
+    <li>OnSelect=<b>ClearCollect(queryResults,[Your First Power App created].Run(Dropdown1.Selected.Value))</b></li>
+    <li>OnChange=<b>ClearCollect(queryResults,[Your First Power App created].Run(Dropdown1.Selected.Value))</b>
+    
+  ![Alt text](/imgs/dropdownadvanced.gif?raw=true)
+    </li>
+    </ol>
   <li></li>
   <li></li>
   <li></li>
