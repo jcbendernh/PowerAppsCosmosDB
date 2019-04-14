@@ -177,3 +177,20 @@ Now that we have the list view in the PowerApp, we would also like to be able to
   <li>Now we are ready to test.  Click <b>Preview the App icon</b> in the upper right and test your screen.  Within the BrowseScreen, search on a device and drill into it's details.  If everything works as expected, you have successfully completed this section.</li>
 </ol>
 
+# Pulling Device Listing from Dynamics 365
+Instead of having to know the device names, we can also pull a listing of Devices that we already have registered with IoT Hub.  For this example we will pull that listing from the IoT Devices entity within Dynamics 365.  Let's get started.
+<i>If you do not have access to a Dynamics 365 Connected Field Service instance.  Alternatively you could use the <a href="https://docs.microsoft.com/en-us/azure/event-grid/overview" target="_blank">Event Grid</a> functionality in IoT Hub in conjunction with <a href="https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-overview" target="_blank">Logic Apps</a> to write your devices to an Azure SQL database when they are registered with IoT Hub.</i>
+
+<ol start="46">
+  <li>Our first step is to delete the <b>Text Input</b> and <b>Button</b> controls from the Browse screen.  We will not use them anymore.</li>
+  <li>Let's add our data source.  From the menu bar select <b>View | Data sources</b> and click <b>Add data source</b>. </li>
+  <li>If you already have used a Dynamics 365 Data Source in another power app, it will show in the collection listing.  If not, click <b>New Connection</b> and select <b>Dynamics 365</b></li>
+  <li>Select the appropriate D365 instance and for the table select <b>Iot Devices</b> and click <b>Connect</b>.  Your data source should now show up in the listing...
+  
+  ![Alt text](/imgs/d365datasource.gif?raw=true)
+  </li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ol>

@@ -27,19 +27,10 @@ WHERE
 GROUP BY Ref._msdyn_account_value, Stream.IoTHub.ConnectionDeviceId, Ref.msdyn_name, Ref.msdyn_iotdeviceid, TumblingWindow(second, 15)
 ),
 
-
-/*
-*** EXPLANATION OF THE ANOMALYDETECTION_DIP FUNCTION ***
-ANOMALYDETECTION_DIP(<scalar_expression>, <tukey_sensitivity>, <zscore_sensitivity>, [<minimum_training_event_count>],) 
-OVER ([PARTITION BY <partition key>] LIMIT DURATION(<unit>, <length>) [WHEN boolean_expression])
-	Z = (event value � mean) / (standard deviation)
-*/
-
 AnomalyDetectionStep AS (
 SELECT
 	*,
     system.timestamp as anomalyDetectionStepTimestamp,
-    --ANOMALYDETECTION_DIP(Fahreheit, 3, 3, 20) OVER (PARTITION BY DeviceID LIMIT DURATION(mi, 10)) as scores 
 	AnomalyDetection_SpikeAndDip(Fahreheit, 99, 20, 'spikesanddips') OVER(LIMIT DURATION(mi, 10)) as SpikeAndDipScores
 FROM Telemetry
 )
